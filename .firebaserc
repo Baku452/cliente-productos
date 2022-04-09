@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "delfosti": {
+      "hosting": {
+        "productosCliente": [
+          "delfosti"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "delfosti"
+  }
+}
