@@ -19,11 +19,10 @@
     class="card card-body mb-3 col-md-3 p-5 m-3 mw-50"
   >
     <div>
-      <ul>
-        <li>Nombre: {{ product.name }}</li>
-        <li>Descripción: {{ product.description }}</li>
-        <li>Price: {{ product.price }}</li>
-      </ul>
+      <h3>Nombre: {{ product.name }}</h3>
+      <p>Descripción: {{ product.description }}</p>
+      <p>Precio: {{ product.price }}</p>
+      <p>Fecha Creación: {{ product.createdAt | date: "yyyy-MM-dd" }}</p>
     </div>
     <div class="d-flex">
       <button class="btn btn-danger me-3" (click)="deleteProduct(product)">
